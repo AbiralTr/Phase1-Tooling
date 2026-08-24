@@ -11,7 +11,7 @@ unclocked_ro_mem #(
     .ADDR_WIDTH(32),
     .DATA_WIDTH(32),
     .MEM_DEPTH_BYTES(1024),
-    .INIT_FILE("init.mem")
+    .INIT_FILE("init-abtu7678.mem")
 ) instruction_memory (
     .addr(instruction_address),  // Example address, modify as needed
     .data_out(instruction_data)    // Connect to CPU or other module as needed
